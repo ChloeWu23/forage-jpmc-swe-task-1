@@ -11,7 +11,7 @@
 
 4. Create patch files:
     * single commit: `git format-patch -1 HEAD`
-    * multiple commit: `git format-patch -n –stdout > multi_commit.patch`
+    * multiple commit: `git format-patch -4 --stdout > multi_commit.patch`
 
 
 
