@@ -9,4 +9,10 @@
 
 3. install all dependencies: listed in requirement.txt `pip install -r requirements.txt`
 
+4. Create patch files:
+    * single commit: `git format-patch -1 HEAD`
+    * multiple commit: `git format-patch -n –stdout > multi_commit.patch`
+
+
+
 
